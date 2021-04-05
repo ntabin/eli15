@@ -1,6 +1,6 @@
-## Coding Principles
+# Coding Principles
 
-### KISS (Keep it Simple Stupid)
+## KISS (Keep it Simple Stupid)
 
 Also known as Keet it super simple or Keep it simply simple.
 
@@ -15,7 +15,7 @@ Use existing libraries/tools to simplify a task. Do not reinvent the wheel unles
 For variable names avoid hungarian notation for example:
 `isAuthorized` is easier to read than `m_isAuthorized`
 
-### Write DRY(Don\'t Repeat Yourself Code)
+## Write DRY(Don\'t Repeat Yourself Code)
 If you\'ve copied code from one place to another, then the code you\'ve copied should be refactored to a common function to avoid duplication.
 
 In this manner, if you have to update/change the code logic, it will only be in one and only place.
