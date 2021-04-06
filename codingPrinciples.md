@@ -55,4 +55,13 @@ So why prefer Composition over Inheritance:
 So when or what should be the case basis whether to use inheritance or composition:
 
 1. Use **Inheritance** when you need an **is-a** relationship. For example a `PayingCustomer` is-a `Customer`, a `WorkingPerson` is-a `Person`.
-2. Use Composition when you need a has-a relationship. For example a `PayingCustomer` has-a `PaymentDetail`, a `WorkingPerson` has-a `Job`
+2. Use Composition when you need a has-a relationship. For example a `PayingCustomer` has-a `PaymentDetail`, a `WorkingPerson` has-a `Job`.
+
+## YAGNI (You Aren't Gonna Need It)
+In a nutshell in terms of software developemt, do not add code/codes that you will not gonna use or need.
+
+This means that whatever is the requirement, stick with it. Do not add some fancy features or stuffs that the user will not gonna use or need.
+
+Do not build a feature now that you will need in the future. Lets say you are working on an application which proceses document and saves it in a file directory. For sure, some time in the future you have to build a feature wherein a user must be able to create or rename a directory. But the important question is does the user need it now? Can the user do the whole system process flow without it? If yes then **You Aren't Gonna Neet It**.
+
+Of course a developer may say _I am in this part and it will be wise to do this as I might need it in the future_. I would say hold on for a while. While it may look cheaper and practical to do it now, you will never know if and when there maybe a change in requirements. And with that, most of the effort will just be wasted.
