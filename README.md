@@ -19,3 +19,10 @@ For variable names avoid hungarian notation for example:
 If you\'ve copied code from one place to another, then the code you\'ve copied should be refactored to a common function to avoid duplication.
 
 In this manner, if you have to update/change the code logic, it will only be in one and only place.
+
+## Composition Over Inheritance
+First lets define Inheritance. Inheritance is a technique in Object Oriented Programming to implement an **is-a** relationship. 
+
+For example, when a `PayingCustomer` class inherits from `Customer` class, all properties of `Customer` class can be accessed by `PayingCustomerClass`. To further understand the **is-a** relationship, you can do this:
+
+`Customer payingCustomer = new PayingCustomer();`
