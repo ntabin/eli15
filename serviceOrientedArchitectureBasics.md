@@ -4,4 +4,4 @@ First of all what is **Service**? Ideally a service is a collection of methods t
   * getUser(userId)
   * register(user)
 
-Service Oriented Architecture (SOA) is type of software architecture wherein it includes a collection of services communicating with each other via passing of data or some service activity.
+Service Oriented Architecture (SOA) is type of software architecture wherein it includes a collection of services communicating with each other via passing of data or some service activity. Most common form of communication is via network
