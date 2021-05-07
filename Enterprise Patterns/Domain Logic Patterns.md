@@ -2,9 +2,10 @@
 
 ## Transaction Script
 
-Every businesess logic can be organized as a series of transactions. These transaction can be a call in the database, queries or massive computation.
+By definition, transaction script organizes business logic by procedures wherein each procedure handles a single request from the presentation.
 
-Transaction Script organizes this transactions to a single procedure. It is like having a single procedure to do the whole database logic for single transaction.
-
-## Domain Model
-
+Basically transaction script is:
+* super simple as you have to write the procedure in one location
+* just write the procedures sequentially and you are all set.
+* Transaction script is best in non complext procedures. 
+* because of this, transactione may be viewed as not OOP but rather Procedural.
