@@ -1,4 +1,4 @@
-# Software Development Practices
+# Own Software Study
 
 I try to explain some software development concepts in my own words.
 
