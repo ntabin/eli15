@@ -16,9 +16,9 @@
 * This means that the domain layer doesn't care where the data is coming from. Whether in MSSQL Server, MySQL, Mongo DB or even from a json file. 
 It only cares about the definitions defined in contracts (like __**Interfaces**__).
 * This layer is like this because we know that business logic seldom changes like for example in stock trading. What the process is for the past 20 years is the same as of this moment. 
-We can also say that a business logic is only need to be implemented once. The one that is rapidly changing is the technology stack. 
-For example you started to write your app in Angular 2, then after you finish it the Angular 5 is now available. 
-Also same with the data access implementation, at first you thought that a RDBMS is the solution but you realize that a NoSql is better.
+* We can also say that a business logic is only need to be implemented once. The one that is rapidly changing is the technology stack. 
+* For example you started to write your app in Angular 2, then after you finish it the Angular 5 is now available. 
+* Also same with the data access implementation, at first you thought that a RDBMS is the solution but you realize that a NoSql is better.
 With this approach it is really easy to change because this layer does not implement the data access but rather just expects the definitions defined in contracts (like __**Interfaces**__).
 
 ### Application Layer
