@@ -11,6 +11,3 @@ We also have **Ubiquitous language** which is simply the language used by **Doma
 The terms used by **Domain Experts** must be the same to what the software developers will use.
 
 **Domain Driven Design** is trying to mimic your software on what it feels like in the real world. The **Domain Expert** and software developers uses **Ubiquitous language** to understand each other.
-
-
- 
