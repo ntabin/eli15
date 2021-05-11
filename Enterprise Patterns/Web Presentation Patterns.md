@@ -24,3 +24,24 @@ Advantages:
 
 Disadvantages:
 * It is close to impossible to scale
+
+## Template View
+If you need a to develop a dynamic web page that changes the displayed data for every parameter change then this pattern is very useful to you.
+By Definition it is HTML Page with embedded markers.
+Basically it is just a HTML template. For example in ASP.Net MVC Razor Page:
+
+```
+<html>
+  <head>
+    <title>Index</title>
+  </head>
+  <body>
+    <div>
+      First Name: @FirstName
+      Last Name: @LastName
+    </div>
+  </body>
+</html>
+```
+
+In the sample above, the `@FirstName` and `@LastName` depending on the passed value
