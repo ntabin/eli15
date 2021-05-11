@@ -9,3 +9,10 @@ Example for websites, when an MVC pattern is implemented, the:
 * request is then routed to the **_Controller_**
 * then the **_Controller_** works with the **_Model_** to retrieve or process the data depending on the application logic. The **_Controller_** gets also to decide on what **_View_** to return or display including the **_Model_**.
 * then the **_View_** renders the final page/UI with the **_Model_**
+
+
+## Page Controller
+Basically it is as simple as one Controller to one Page logic. 
+If you have used ASP.Net Webforms before each logical page (.aspx) and the behavior of the page which is in the code behind. 
+As contrast to the **_Model View Controller (MVC)_**, **_Page Controller*_* combines both Views and Controllers.
+
