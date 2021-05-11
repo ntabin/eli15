@@ -16,3 +16,11 @@ Basically it is as simple as one Controller to one Page logic.
 If you have used ASP.Net Webforms before each logical page (.aspx) and the behavior of the page which is in the code behind. 
 As contrast to the **_Model View Controller (MVC)_**, **_Page Controller*_* combines both Views and Controllers.
 
+## Front Controller
+Basically this pattern redirects all request from a resource will be handled by **_one_** controller only. After that it can be the so called one controller can use some helpers or other means to achieve the desired results.
+
+Advantages:
+* Centralized and Simplicity.
+
+Disadvantages:
+* It is close to impossible to scale
