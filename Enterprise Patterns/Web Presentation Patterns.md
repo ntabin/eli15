@@ -63,8 +63,5 @@ We can easily to this by:
 1) Make the backend response to be JSON.
 2) Use Angular, View or ReactJS to render the HTML. This way, the transformation is done by a JS Framework ad not manually.
 
-
-
-
-
-
+## Application Controller
+Basically this pattern makes the decision for which is the next View or screen to show sort of like the software wizard or setup assistant usually in Web Applications. All request will be directed to just one controller and the controller gets to decide what to do next on the request and on what  View or screen to show based on state. This pattern can be merge with **_Front Controller_** and **_Page Controller_** as both want to handle request on only one place.
