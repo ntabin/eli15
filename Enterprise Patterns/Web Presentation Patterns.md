@@ -61,7 +61,7 @@ By definition it is transforming of domain data into HTML in two steps.
 
 We can easily to this by:
 1) Make the backend response to be JSON.
-2) Use Angular, View or ReactJS to render the HTML.
+2) Use Angular, View or ReactJS to render the HTML. This way, the transformation is done by a JS Framework ad not manually.
 
 
 
