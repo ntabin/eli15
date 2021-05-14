@@ -44,4 +44,27 @@ Basically it is just a HTML template. For example in ASP.Net MVC Razor Page:
 </html>
 ```
 
-In the sample above, the `@FirstName` and `@LastName` depending on the passed value
+In the sample above, the `@FirstName` and `@LastName` depending on the passed value.
+
+## Transform View
+
+By definition it is a View that transforms domain data into HTML, XML or JSON. 
+As oppose to template view, **_Transaform View_** transforms data element by element. 
+A good example of ths is the `JSON.stringify()` in javascript which returns a string containing the JSON representation of the supplied value.
+
+## Two Step view
+The problem this pattern solves is when we have a multiple page website, we want the website to have a consistent look on all web pages. With a template view, we duplicate all elements related to attain the consistent look. What we want is to have a way to alter the look globally.
+
+By definition it is transforming of domain data into HTML in two steps. 
+1) we separate the process of transforming  model data into a logical representation like a JSON or XML.
+2) Then we convert that logical presentation with actual formatting that we desire. 
+
+We can easily to this by:
+1) Make the backend response to be JSON.
+2) Use Angular, View or ReactJS to render the HTML.
+
+
+
+
+
+
