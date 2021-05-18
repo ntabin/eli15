@@ -9,3 +9,6 @@ Basically this object has some methods like find, findByName, update, insert, de
 
 ## Active Record
 Active Record is a pattern in which an object instance is tied to a single row in the table. When this objects properties are updated, it will also persist in the database. Active Record is usually used by Object relational Mappers as this objects are usually generated automatically by them. Some people view this as an anti-pattern due to a violation in Single Responsibility Principle(SRP) as every class will have a method and properties for insert, update, delete, save, validation and so on so forth. This pattern is good if you have a business logic next to none but that is rare in software development world.
+
+## Data Mapper
+Data Mapper is a pattern in which it creates classes for mapping domain model objects to and from databases. This classes has get, save, delete just like in a database operations. This is sort of like the table data gateway except this pattern is not exclusive to a table but to a domain model.
