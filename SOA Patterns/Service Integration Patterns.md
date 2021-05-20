@@ -27,3 +27,10 @@ Message Routing Pattern determines the recipient/receiver of a message based on 
 * Recipient List - Addresses the solution in the scenario wherein a message is routed to one or more recipients. Recipients can bot be statically or dynamically.
 
 * Splitter - Addresses the solution when a message must be splitted to multiple recipients
+
+## Channel Adapter
+
+When you have an Application that you want to connect to a messaging system without modifying it then you might need the Channel Adapter. Channel Adapter accesses the Applications API and publishes the message to a channel and also can receive.
+
+## Publish Subscribe
+Publish Subscribe is a messaging pattern in which the senders (also called publishers) do not send messages directly to receivers (also called publishers). Instead this so called publishers publish messages categorically in which this subscribers can subscribe to. The publishers does not know this so called subscribers. The very advantage of this is there is loose coupling between senders and receivers
