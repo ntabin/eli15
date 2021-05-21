@@ -2,7 +2,7 @@
 
 ## KISS (Keep it Simple Stupid)
 
-Also known as Keet it super simple or Keep it simply simple.
+Also known as Keep it super simple or Keep it simply simple.
 
 Write code as simple as possible.
 
