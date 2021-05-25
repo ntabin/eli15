@@ -15,3 +15,12 @@ It works like this:
 2. Then The Application Server gets the request then sends it to the database server. The database server processes the request then sends it to the response to Application Server then the application server sends the response to the front end.
 
 This pattern separates hardware, software and functionalities. Only the front end must be adapted to communicate to different devices.
+
+# Reservation Pattern
+Reservation Pattern means that there is an internal component in a service that will handle reservations. The services must be independent. Its responsibilities are:
+
+* Reservation - make a reservation when a message is received. Just like a student reserving a book in a library, there is an indication that there's a limit to the length of reservation like the book is only available until tomorrow
+* Validation - Makes sure that the reservation is still valid or is valid. In the example above in a library, the librarian can check whether the borrower of the book is allowed or is it reserved.
+* Expiration - Makes a reservation invalid. Again in the example above in a library, the librarian can say that a VIP has already borrowed the book and it is not available or your reservation for the book has lapsed.
+
+As you can see, reservations happen everyday in real life.
